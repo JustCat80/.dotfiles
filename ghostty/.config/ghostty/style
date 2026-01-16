@@ -1,0 +1,9 @@
+font-family = "FiraCode Nerd Font Mono"
+font-size = 10
+font-feature = +ss02 
+
+theme = "/usr/share/ghostty/themes/Adwaita Dark"
+background-blur = 0
+link-url = true
+
+window-theme = dark
