@@ -2,8 +2,11 @@
 source "setupFunctions/stowHelp.sh"
 source "setupFunctions/paruInstall.sh"
 source "setupFunctions/notifier.sh"
+source "setupFunctions/checks.sh"
 
 set -e
+
+sudoCheck
 
 notify "36" "Installing standard packages"
 sudo pacman -Syu --noconfirm --needed - < list-pkg.txt
