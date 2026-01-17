@@ -27,6 +27,9 @@ current_dir=$(pwd)
 stowHelp "$current_dir/HOME/" "$HOME"
 stowHelp "$current_dir/ROOT/" "/"
 
+notify "36" "Reverting git repo"
+git revert .
+
 notify "32" "Success! Exiting Script..."
 
 exit 0
