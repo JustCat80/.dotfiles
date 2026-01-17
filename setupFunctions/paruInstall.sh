@@ -1,17 +1,19 @@
+source "setupFunctions/notifier.sh"
+
 aurCheck() {
     # AUR check
-    echo -e "\e[36mChecking if the AUR responds before continuing..."
+    notify "36" "Checking if the AUR responds before continuing..."
     if [ ! ping -c 1 aur.archlinux.org &> /dev/null ]; then
-        echo -e "\e[31mAUR ping failed, try again later or check your internet connection\e[0m"
+        notify "31" "AUR ping failed, try again later or check your internet connection"
         exit 1
     else
-        echo -e "\e[32mAUR check success!\e[0m"
+        notify "32" "AUR check success!"
     fi
 }
 
 paruInstall() {
     if [ ! -d "$HOME/Downloads" ]; then
-        echo "'$HOME/Downloads' not found, creating"
+        notify "31" "'$HOME/Downloads' not found, creating"
         mkdir "$HOME/Downloads"
     fi
 
@@ -20,7 +22,7 @@ paruInstall() {
     fi
     pushd "$HOME/Downloads"
 
-    echo -e "\e[36mInstalling paru\e[0m"
+    notify "36" "Installing paru"
 
     git clone https://aur.archlinux.org/paru.git
     cd paru
