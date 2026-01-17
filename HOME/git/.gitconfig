@@ -4,7 +4,7 @@
 	process = git-lfs filter-process
 	required = true
 [user]
-	name = JustCat80
+	name = Cat
 	email = 50190590+JustCat80@users.noreply.github.com
 	signingkey = 288D09947FDEC0EA5CFD157FBD43836B80313C91
 [init]
