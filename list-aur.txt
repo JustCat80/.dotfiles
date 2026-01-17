@@ -1,0 +1,4 @@
+paru
+vesktop
+speedtest++
+archstatus-git

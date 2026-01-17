@@ -21,3 +21,8 @@ _darcs
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
+
+list-pkg.txt
+list-aur.txt
+HOME/*
+ROOT/*
