@@ -28,7 +28,7 @@ stowHelp "$current_dir/HOME/" "$HOME"
 stowHelp "$current_dir/ROOT/" "/"
 
 notify "36" "Reverting git repo"
-git revert .
+git restore .
 
 notify "32" "Success! Exiting Script..."
 
