@@ -1,2 +1,1 @@
-# The following files need to be stowed in the '/' directory, specified with `sudo stow [Folder] -t /`
-- pacman
+# Files in the HOME directory do not need a specified location. Files in the ROOT directory should be stowed to '/'
