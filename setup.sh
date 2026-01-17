@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 source "setupFunctions/stowHelp.sh"
 source "setupFunctions/paruInstall.sh"
 source "setupFunctions/notifier.sh"
