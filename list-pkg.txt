@@ -8,6 +8,7 @@ stow
 fish
 rustup
 zoxide
+fzf
 ghostty
 ghostty-shell-integration
 ghostty-terminfo
