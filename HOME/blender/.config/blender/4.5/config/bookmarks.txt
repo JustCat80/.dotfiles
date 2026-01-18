@@ -1,0 +1,5 @@
+[Bookmarks]
+[Recent]
+/media/documents/Blender/
+/media/documents/Blender/Temp/
+/home/cat/Documents/Blender Plugins/

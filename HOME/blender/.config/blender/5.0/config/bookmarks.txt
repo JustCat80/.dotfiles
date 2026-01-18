@@ -1,0 +1,8 @@
+[Bookmarks]
+[Recent]
+/home/cat/Downloads/
+/media/documents/Unity/ALCOM/Projects/Rikki/Assets/RIkki/FBX/
+/media/documents/Unity/ALCOM/Projects/Rikki Quest/Assets/RIkki/FBX/
+/media/documents/Blender/
+/media/documents/Blender/Temp/
+/home/cat/Documents/Blender Plugins/

@@ -1,0 +1,15 @@
+Generate ▸ Mirror
+Deform ▸ Armature
+  Armature
+Head
+Neck
+Chest
+ 0 leather
+ 0 Skin
+ 0 Steve
+   Steve1.png
+
+  NurbsPath
+  NurbsCircle
+Generate ▸ Boolean
+  Cylinder.001

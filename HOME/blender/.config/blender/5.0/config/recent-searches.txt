@@ -1,0 +1,4 @@
+Generate ▸ Subdivision Surface
+Generate ▸ Mirror
+Generate ▸ Decimate
+Generate ▸ Boolean
