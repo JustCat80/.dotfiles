@@ -24,3 +24,5 @@ libreoffice-still
 fastfetch
 obsidian
 brightnessctl
+bitwarden
+bitwarden-cli
