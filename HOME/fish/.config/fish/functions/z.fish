@@ -1,3 +1,3 @@
 function z --wraps=cd --description 'alias z=cd'
-    cd
+    cd $argv
 end

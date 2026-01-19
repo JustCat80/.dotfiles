@@ -1,3 +1,3 @@
 function zi --wraps=cd --description 'alias zi=cdi'
-    cdi
+    cdi $argv
 end
