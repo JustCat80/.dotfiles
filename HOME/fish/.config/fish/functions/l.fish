@@ -7,7 +7,10 @@ function l --description 'The same as the ls function but does not show hidden d
     if not count $argv > /dev/null
         set -f dir "."
     end
-    
+    set -f fileCount $(math $(find $dir -maxdepth 1 | wc -l) -1)
+    if test $fileCount -lt 1
+        echo -e "\e[31mdirectory empty\e[0m"
+    end
     set -f hiddenFileCount $(math $(find $dir -maxdepth 1 -name ".*" | wc -l) -1)
     if set -ql _flag_A
       or test $hiddenFileCount -lt 10
