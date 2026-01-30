@@ -12,6 +12,7 @@ fzf
 ghostty
 ghostty-shell-integration
 ghostty-terminfo
+ffmpeg
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
