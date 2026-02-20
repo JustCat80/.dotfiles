@@ -2,3 +2,7 @@ paru
 vesktop
 speedtest++
 archstatus-git
+
+vscodium-bin
+vscodium-bin-marketplace
+vscodium-xdg-dir-patch
