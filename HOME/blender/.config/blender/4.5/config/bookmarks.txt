@@ -1,5 +1,6 @@
 [Bookmarks]
 [Recent]
+/media/documents/Unity/ALCOM/Projects/Stripe/Assets/Stripe By Lumey/FBX/
 /media/documents/Blender/
 /media/documents/Blender/Temp/
 /home/cat/Documents/Blender Plugins/
