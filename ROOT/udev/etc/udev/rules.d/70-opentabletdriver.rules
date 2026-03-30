@@ -1,0 +1,8 @@
+
+KERNEL=="uinput", SUBSYSTEM=="misc", OPTIONS+="static_node=uinput", TAG+="uaccess", TAG+="udev-acl"
+KERNEL=="js[0-9]*", SUBSYSTEM=="input", ATTRS{name}=="OpenTabletDriver Virtual Tablet", RUN+="/usr/bin/env rm %E{DEVNAME}"
+
+# Gaomon WH851
+KERNEL=="hidraw*", ATTRS{idVendor}=="256c", ATTRS{idProduct}=="2003", TAG+="uaccess", TAG+="udev-acl"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="256c", ATTRS{idProduct}=="2003", TAG+="uaccess", TAG+="udev-acl"
+SUBSYSTEM=="input", ATTRS{idVendor}=="256c", ATTRS{idProduct}=="2003", ENV{LIBINPUT_IGNORE_DEVICE}="1"
