@@ -13,6 +13,11 @@
           "Path": "erase_button.erase_button",
           "Settings": [],
           "Enable": false
+        },
+        {
+          "Path": "monitor_toggle.monitor_toggle",
+          "Settings": [],
+          "Enable": false
         }
       ],
       "AbsoluteModeSettings": {
@@ -26,7 +31,7 @@
         "Tablet": {
           "Width": 203.2,
           "Height": 127.0,
-          "X": 101.6,
+          "X": 101.59999,
           "Y": 63.5,
           "Rotation": 0.0
         },
@@ -91,47 +96,7 @@
             "Settings": [
               {
                 "Property": "Key",
-                "Value": "D1"
-              }
-            ],
-            "Enable": true
-          },
-          {
-            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
-            "Settings": [
-              {
-                "Property": "Key",
-                "Value": "D2"
-              }
-            ],
-            "Enable": true
-          },
-          {
-            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
-            "Settings": [
-              {
-                "Property": "Key",
-                "Value": "D3"
-              }
-            ],
-            "Enable": true
-          },
-          {
-            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
-            "Settings": [
-              {
-                "Property": "Key",
                 "Value": "D4"
-              }
-            ],
-            "Enable": true
-          },
-          {
-            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
-            "Settings": [
-              {
-                "Property": "Key",
-                "Value": "D5"
               }
             ],
             "Enable": true
@@ -151,7 +116,7 @@
             "Settings": [
               {
                 "Property": "Key",
-                "Value": "D7"
+                "Value": "LeftBracket"
               }
             ],
             "Enable": true
@@ -161,7 +126,7 @@
             "Settings": [
               {
                 "Property": "Key",
-                "Value": "D8"
+                "Value": "RightBracket"
               }
             ],
             "Enable": true
@@ -171,7 +136,47 @@
             "Settings": [
               {
                 "Property": "Key",
-                "Value": "D9"
+                "Value": "Insert"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Shift+Z"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Z"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "CycleBind.CycleBind",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "P+B"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "D3"
               }
             ],
             "Enable": true
@@ -187,5 +192,32 @@
   ],
   "LockUsableAreaDisplay": true,
   "LockUsableAreaTablet": true,
-  "Tools": []
+  "Tools": [
+    {
+      "Path": "ScrollBinding.ScrollBindingSettings",
+      "Settings": [
+        {
+          "Property": "ScrollDelay",
+          "Value": 15
+        },
+        {
+          "Property": "ForwardScroll",
+          "Value": 120
+        },
+        {
+          "Property": "BackwardScroll",
+          "Value": 120
+        },
+        {
+          "Property": "LeftScroll",
+          "Value": 120
+        },
+        {
+          "Property": "RightScroll",
+          "Value": 120
+        }
+      ],
+      "Enable": false
+    }
+  ]
 }
