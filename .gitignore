@@ -1,3 +1,5 @@
 HOME/VSCodium/*
 qBittorrent/.config/qBittorrent/qBittorrent-data.conf
 test.sh
+/HOME/OpenTabletDriver/.config/OpenTabletDriver/Logs
+/HOME/OpenTabletDriver/.config/OpenTabletDriver/*.txt
