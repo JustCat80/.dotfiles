@@ -28,3 +28,4 @@ brightnessctl
 bitwarden
 bitwarden-cli
 lsb-release
+krita
