@@ -3,6 +3,7 @@ source "setupFunctions/stowHelp.sh"
 source "setupFunctions/paruInstall.sh"
 source "setupFunctions/notifier.sh"
 source "setupFunctions/checks.sh"
+source "setupFunctions/openTabletDriverSetup.sh"
 
 set -e
 
@@ -26,6 +27,9 @@ current_dir=$(pwd)
 
 stowHelp "$current_dir/HOME/" "$HOME"
 stowHelp "$current_dir/ROOT/" "/"
+
+#OTD
+otdSetup
 
 notify "36" "Reverting git repo"
 git restore .
