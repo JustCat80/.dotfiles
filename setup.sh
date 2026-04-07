@@ -28,6 +28,10 @@ current_dir=$(pwd)
 stowHelp "$current_dir/HOME/" "$HOME"
 stowHelp "$current_dir/ROOT/" "/"
 
+notify "36" "Running and enabling reflector"
+sudo systemctl start reflector.service
+sudo systemctl enable --now reflector.timer
+
 #OTD
 otdSetup
 
