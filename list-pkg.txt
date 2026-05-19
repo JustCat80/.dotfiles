@@ -31,3 +31,4 @@ lsb-release
 krita
 libqalculate
 eza
+btop
