@@ -30,3 +30,4 @@ bitwarden-cli
 lsb-release
 krita
 libqalculate
+eza
