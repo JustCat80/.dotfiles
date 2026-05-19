@@ -55,3 +55,9 @@ copy-on-select = false
 window-width = 156
 window-height = 48
 
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
+quick-terminal-screen = mouse
+quick-terminal-position = top
+
+# Percentage, primary axis only
+quick-terminal-size = 35%
