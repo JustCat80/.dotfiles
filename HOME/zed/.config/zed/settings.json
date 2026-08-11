@@ -1,0 +1,42 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "middle_click_paste": false,
+  "terminal": {
+    "show_count_badge": false
+  },
+  "window_decorations": "client",
+  "bottom_dock_layout": "contained",
+  "disable_ai": false,
+  "ui_font_family": ".SystemUIFont",
+  "project_panel": {
+    "hide_root": false,
+    "git_status_indicator": true,
+    "folder_icons": true,
+    "hide_gitignore": false,
+    "dock": "left"
+  },
+  "buffer_font_family": "FiraCode Nerd Font Mono",
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "base_keymap": "VSCode",
+  "minimap": {
+    "show": "always"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "Tokyo Night",
+  },
+}
