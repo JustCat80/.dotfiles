@@ -3,12 +3,36 @@
     {
       "name": "",
       "overlays": {
-        "DP-2": {
-          "alpha": 0.75000006,
+        "kbd": {
+          "alpha": 1.0,
           "grabbable": true,
           "interactable": true,
           "positioning": "Anchored",
           "curvature": 0.049999997,
+          "additive": false,
+          "saved_transform": [
+            1.1482549,
+            0.024529368,
+            0.058403105,
+            0.0019917144,
+            1.0457752,
+            -0.4783854,
+            -0.06331387,
+            0.47776023,
+            1.0441449,
+            0.09264293,
+            -0.66449744,
+            -0.19198537
+          ],
+          "block_input": true,
+          "angle_fade": false
+        },
+        "DP-2": {
+          "alpha": 0.70000005,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Anchored",
+          "curvature": null,
           "additive": false,
           "saved_transform": [
             1.4965042,
@@ -28,49 +52,25 @@
           "angle_fade": false
         },
         "DP-1": {
-          "alpha": 0.75000006,
+          "alpha": 0.70000005,
           "grabbable": true,
           "interactable": true,
           "positioning": "Anchored",
           "curvature": 0.049999997,
           "additive": false,
           "saved_transform": [
-            1.1174258,
-            -0.099806845,
-            -0.9957303,
-            0.05135797,
-            1.4963006,
-            -0.09234662,
-            0.999401,
-            0.034700576,
-            1.1180673,
-            -1.048577,
-            0.0124441385,
-            -0.042966306
-          ],
-          "block_input": true,
-          "angle_fade": false
-        },
-        "kbd": {
-          "alpha": 1.0,
-          "grabbable": true,
-          "interactable": true,
-          "positioning": "Anchored",
-          "curvature": 0.049999997,
-          "additive": false,
-          "saved_transform": [
-            1.147588,
-            -0.01294712,
-            0.07330263,
-            0.04418674,
-            1.0298456,
-            -0.5098676,
-            -0.059903562,
-            0.5116149,
-            1.0281835,
-            0.02698347,
-            -0.6562781,
-            -0.2096867
+            1.1410042,
+            -0.11767542,
+            -0.96662164,
+            0.02575542,
+            1.4921638,
+            -0.15125293,
+            0.973417,
+            0.09845418,
+            1.1370394,
+            -1.0452154,
+            0.014405131,
+            -0.12009275
           ],
           "block_input": true,
           "angle_fade": false
@@ -81,21 +81,10 @@
     {
       "name": "",
       "overlays": {
-        "kbd": {
-          "alpha": 1.0,
+        "DP-1": {
+          "alpha": 0.3,
           "grabbable": true,
           "interactable": true,
-          "positioning": "Anchored",
-          "curvature": 0.15,
-          "additive": false,
-          "saved_transform": null,
-          "block_input": true,
-          "angle_fade": false
-        },
-        "DP-1": {
-          "alpha": 0.85,
-          "grabbable": true,
-          "interactable": false,
           "positioning": "Anchored",
           "curvature": null,
           "additive": false,
@@ -117,6 +106,32 @@
           "angle_fade": false
         },
         "DP-2": {
+          "alpha": 0.4,
+          "grabbable": true,
+          "interactable": false,
+          "positioning": "Anchored",
+          "curvature": 0.15,
+          "additive": false,
+          "saved_transform": [
+            1.4996291,
+            0.012836903,
+            0.028917879,
+            -0.012688503,
+            1.4998891,
+            -0.0078107715,
+            -0.028983325,
+            0.0075643808,
+            1.4996638,
+            0.0104525685,
+            -0.010413885,
+            -0.48562384
+          ],
+          "block_input": true,
+          "angle_fade": false
+        }
+      },
+      "hidden_overlays": {
+        "kbd": {
           "alpha": 1.0,
           "grabbable": true,
           "interactable": true,
@@ -127,14 +142,13 @@
           "block_input": true,
           "angle_fade": false
         }
-      },
-      "hidden_overlays": {}
+      }
     }
   ],
   "global_set": {
     "watch": {
-      "alpha": 0.02,
-      "grabbable": true,
+      "alpha": 1.0,
+      "grabbable": false,
       "interactable": true,
       "positioning": {
         "FollowHand": {
@@ -146,32 +160,52 @@
       "curvature": null,
       "additive": false,
       "saved_transform": [
-        -0.0080739055,
-        -0.11434572,
-        -0.009227216,
-        0.0044313525,
-        0.008932297,
-        -0.1145681,
-        0.11463177,
-        -0.008399038,
-        0.0037789687,
-        0.008588314,
-        -0.041671813,
-        0.14603624
+        -0.015488438,
+        -0.113853656,
+        0.0047652833,
+        -0.01724159,
+        -0.0024123155,
+        -0.11367567,
+        0.11264142,
+        -0.01602436,
+        -0.016744679,
+        0.014520228,
+        -0.042383507,
+        0.1531632
       ],
       "block_input": true,
       "angle_fade": true
+    },
+    "Dashboard": {
+      "alpha": 1.0,
+      "grabbable": true,
+      "interactable": true,
+      "positioning": "Floating",
+      "curvature": 0.15,
+      "additive": false,
+      "saved_transform": [
+        0.98391205,
+        -0.01604189,
+        0.17793417,
+        0.037063386,
+        0.9926213,
+        -0.115456104,
+        -0.17476904,
+        0.12019345,
+        0.97724617,
+        0.1681068,
+        -0.11582267,
+        -0.942564
+      ],
+      "block_input": true,
+      "angle_fade": false
     }
   },
   "last_set": 0,
   "attribs": [
     [
       "DP-1",
-      [
-        {
-          "MouseTransform": "Normal"
-        }
-      ]
+      []
     ],
     [
       "DP-2",
@@ -195,6 +229,10 @@
     ],
     [
       "grab-help",
+      []
+    ],
+    [
+      "whisper",
       []
     ]
   ]

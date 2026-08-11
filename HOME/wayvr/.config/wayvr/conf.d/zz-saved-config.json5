@@ -12,10 +12,9 @@
   "keyboard_sound_enabled": true,
   "upright_screen_fix": false,
   "double_cursor_fix": false,
+  "enable_watch": true,
   "sets_on_watch": true,
   "hide_grab_help": false,
-  "xr_click_sensitivity": 0.70000005,
-  "xr_click_sensitivity_release": 0.5,
   "allow_sliding": true,
   "focus_follows_mouse_mode": false,
   "left_handed_mouse": false,
@@ -23,11 +22,21 @@
   "block_game_input_ignore_watch": true,
   "block_poses_on_kbd_interaction": true,
   "space_drag_multiplier": 1.0,
+  "watch_view_angle_min": 0.5,
+  "watch_view_angle_max": 0.70000005,
   "use_skybox": true,
+  "skybox_texture": "",
+  "grid_opacity": 1.0,
   "use_passthrough": true,
   "screen_render_down": false,
   "pointer_lerp_factor": 0.3,
   "space_drag_unlocked": true,
+  "space_gravity_damping": 1.0,
+  "space_gravity_enabled": false,
+  "space_gravity_fling_strength": 1.0,
+  "space_gravity_gravity": 1.0,
+  "space_gravity_ground_friction": 1.0,
+  "space_gravity_floor_height": 0.0,
   "space_rotate_unlocked": false,
   "clock_12h": false,
   "hide_username": false,
@@ -37,5 +46,26 @@
   "capture_method": "Auto",
   "keyboard_middle_click_mode": "None",
   "autostart_apps": [],
-  "handsfree_pointer": "Hmd"
+  "handsfree_pointer": "Hmd",
+  "language": null,
+  "chroma_key_params": {
+    "hsv_min": [
+      0.33333334,
+      1.0,
+      1.0
+    ],
+    "hsv_max": [
+      0.33333334,
+      1.0,
+      1.0
+    ],
+    "curve": 0.0,
+    "despill": 0.0
+  },
+  "input_emulation_method": "Uinput",
+  "tutorial_graduated": true,
+  "whisper_model": "",
+  "default_overlay_scale": 1.0,
+  "color_palette": "Tokyo Night",
+  "snap_angle_deg": 0.0
 }
