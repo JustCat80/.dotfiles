@@ -7,13 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "proxy": "",
+  "agent": {
+    "dock": "right",
+    "sidebar_side": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "middle_click_paste": false,
   "terminal": {
     "show_count_badge": false
   },
   "window_decorations": "client",
   "bottom_dock_layout": "contained",
-  "disable_ai": false,
+  "disable_ai": true,
   "ui_font_family": ".SystemUIFont",
   "project_panel": {
     "hide_root": false,
