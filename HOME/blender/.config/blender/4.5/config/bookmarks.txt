@@ -1,5 +1,9 @@
 [Bookmarks]
 [Recent]
+/media/documents/Old/Vrchat/Commercial/Body/Zinpia/VRBASE Fantasy/textures/Skin Tones/
+/media/documents/Old/Vrchat/Commercial/Head/Willa Head by 23Mink/VRBase Anime Skintones/
+/media/documents/Blender/Bunnie/
+/home/cat/Downloads/
 /media/documents/Unity/ALCOM/Projects/Stripe/Assets/Stripe By Lumey/FBX/
 /media/documents/Blender/
 /media/documents/Blender/Temp/

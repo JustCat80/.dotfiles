@@ -1,3 +1,7 @@
+/media/documents/Blender/Bunnie/Merged Body.blend
+/media/documents/Blender/Bunnie/Pre-Merge Body.blend
+/media/documents/Blender/Bunnie/Flat Foot.blend
+/media/documents/Old/Vrchat/Commercial/Body/Zinpia/VRBASE Fantasy/Flat Foot .blend
 /media/documents/Unity/ALCOM/Projects/Stripe/Assets/Stripe By Lumey/FBX/Untitled.blend
 /media/documents/Blender/Space Station.blend
 /media/documents/Blender/Temp/Le poisson steve.blend

@@ -8,8 +8,9 @@ Chest
  0 Skin
  0 Steve
    Steve1.png
-
   NurbsPath
   NurbsCircle
 Generate ▸ Boolean
   Cylinder.001
+  Armature.001
+
