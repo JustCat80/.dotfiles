@@ -11,17 +11,17 @@ paruInstall() {
 		exit $err
 	   fi
 	}
-	
+
 	case $key in
-	    y) 
+	    y)
 		notify "36" "y specified, Installing anyway..."
 		continue
 		;;
-	    *) 
+	    *)
 		notify "36" "n Specified, skipping paru install..."
 		return 0
 		;;
-	esac	
+	esac
     fi
     if [ ! -d "$HOME/Downloads" ]; then
         notify "31" "'$HOME/Downloads' not found, creating"
