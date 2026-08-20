@@ -58,6 +58,7 @@ window-height = 48
 keybind = global:ctrl+grave_accent=toggle_quick_terminal
 quick-terminal-screen = mouse
 quick-terminal-position = top
+quick-terminal-size = 30%,100%
 
 # Percentage, primary axis only
 quick-terminal-size = 35%
