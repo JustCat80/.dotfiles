@@ -1,5 +1,8 @@
-/media/documents/Blender/Bunnie/Merged Body.blend
+/media/documents/Lyra.blend
 /media/documents/Blender/Bunnie/Pre-Merge Body.blend
+/media/documents/Blender/Pre-Merge Body.blend
+/media/documents/Blender/Bunnie/Merged Body.blend
+/media/documents/Old/Vrchat/Commercial/Body/Zinpia/VRBASE E-Girl/vrbase_Egirl_Heeled Foot new.blend
 /media/documents/Blender/Bunnie/Flat Foot.blend
 /media/documents/Old/Vrchat/Commercial/Body/Zinpia/VRBASE Fantasy/Flat Foot .blend
 /media/documents/Unity/ALCOM/Projects/Stripe/Assets/Stripe By Lumey/FBX/Untitled.blend
